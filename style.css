@@ -235,7 +235,7 @@ first div in the grid  and place it in the grid. */
 
   .container{
     display:grid;
-    grid-column: 50px auto 500px auto 50px;
+    grid-template-columns: 50px auto 500px auto 50px;
   }
 
   /* Steps 11 and 12: Update the grid-column property of the grid's children (where-needed)*/
