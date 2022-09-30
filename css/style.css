@@ -116,6 +116,7 @@ nav a:hover, nav a:focus{
 .skip{
   position: absolute;
   top:-40px;
+  background-color:#ffffff;
 }
 
 /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
@@ -182,28 +183,28 @@ first div in the grid  and place it in the grid. */
   grid-column:1 / span 3;
   grid-row-start: 2;
   max-height:600px;
-  overflow: clip;
+  overflow: hidden;
 }
 
 .method-image{
   grid-column:1 / span 3;
   grid-row-start: 3;
   max-height:600px;
-  overflow: clip;
+  overflow: hidden;
 }
 
 .clients-image{
   grid-column:1 / span 3;
   grid-row-start: 4;
   max-height:600px;
-  overflow: clip;
+  overflow: hidden;
 }
 
 .contact-image{
   grid-column:1 / span 3;
   grid-row-start: 5;
   max-height:600px;
-  overflow: clip;
+  overflow: hidden;
 }
  /* Step 8: Write the selector/rule property to style the .text-block class. */
 
