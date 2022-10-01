@@ -252,7 +252,7 @@ first div in the grid  and place it in the grid. */
 
  .text-block{
   max-height: 250px;
-  overflow: auto tabindex="0";
+  overflow: scroll;
   }
 
 }
